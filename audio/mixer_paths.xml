@@ -367,18 +367,18 @@
     <ctl name="HPHR Volume" value="20" />
     <ctl name="EAR SPKR PA Gain" value="G_DEFAULT" />
 
-    <ctl name="TX_DEC0 Volume" value="84" />
-    <ctl name="TX_DEC1 Volume" value="84" />
-    <ctl name="TX_DEC2 Volume" value="84" />
-    <ctl name="TX_DEC3 Volume" value="84" />
-    <ctl name="TX_DEC4 Volume" value="84" />
-    <ctl name="TX_DEC5 Volume" value="84" />
-    <ctl name="TX_DEC6 Volume" value="84" />
-    <ctl name="TX_DEC7 Volume" value="84" />
+    <ctl name="TX_DEC0 Volume" value="90" />
+    <ctl name="TX_DEC1 Volume" value="90" />
+    <ctl name="TX_DEC2 Volume" value="90" />
+    <ctl name="TX_DEC3 Volume" value="90" />
+    <ctl name="TX_DEC4 Volume" value="90" />
+    <ctl name="TX_DEC5 Volume" value="90" />
+    <ctl name="TX_DEC6 Volume" value="90" />
+    <ctl name="TX_DEC7 Volume" value="90" />
 
-    <ctl name="ADC1 Volume" value="12" />
-    <ctl name="ADC2 Volume" value="12" />
-    <ctl name="ADC3 Volume" value="12" />
+    <ctl name="ADC1 Volume" value="20" />
+    <ctl name="ADC2 Volume" value="20" />
+    <ctl name="ADC3 Volume" value="20" />
 
     <!-- Compander controls -->
     <ctl name="COMP7 Switch" value="0" />
@@ -3410,10 +3410,10 @@
 
     <path name="camcorder-mic-bf">
         <!-- main mic volume -->
-        <ctl name="ADC1 Volume" value="8" />
+        <ctl name="ADC1 Volume" value="15" />
         <ctl name="TX_DEC0 Volume" value="84" />
         <!-- ref mic volume -->
-        <ctl name="ADC2 Volume" value="8" />
+        <ctl name="ADC2 Volume" value="15" />
         <ctl name="TX_DEC1 Volume" value="84" />
         <ctl name="TX_CDC_DMA_TX_3 Channels" value="Two" />
         <ctl name="TX DEC1 MUX" value="SWR_MIC" />
@@ -3431,10 +3431,10 @@
 
     <path name="camcorder-mic-bf-reverse">
         <!-- main mic volume -->
-        <ctl name="ADC1 Volume" value="8" />
+        <ctl name="ADC1 Volume" value="15" />
         <ctl name="TX_DEC0 Volume" value="84" />
         <!-- ref mic volume -->
-        <ctl name="ADC2 Volume" value="8" />
+        <ctl name="ADC2 Volume" value="15" />
         <ctl name="TX_DEC1 Volume" value="84" />
         <ctl name="TX_CDC_DMA_TX_3 Channels" value="Two" />
         <ctl name="TX DEC0 MUX" value="SWR_MIC" />
@@ -3634,7 +3634,7 @@
 
     <path name="external-mic">
         <path name="amic2" />
-        <ctl name="ADC2 Volume" value="8" />
+        <ctl name="ADC2 Volume" value="20" />
         <ctl name="TX_DEC0 Volume" value="84" />
     </path>
 
